@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    padding: 2px;
+    position: relative;
+    left: 285px;
+    top:-30px;
+    height: 25px;
+    width: 25px;
+}
+#card{
+    background-color: white;
+    height: 600px;
+    width: 350px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+#storiyan{
+    position: relative;
+    top: -35px;
+    height: 115px;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid #dadada;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story1{
+    border: 3px solid green;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.story1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.story{
+    border: 3px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#profile{
+    height: 30px;
+    width: 100%;
+    margin-top:-30px;
+
+}
+.fa-circle{
+    margin-left: 6px;
+    margin-top: 5px;
+    height: 20px;
+}
+.section{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a-ellipsis-vertical{
+    padding-left: 15px;
+}
+h2{
+    width: 83%;
+    font-size: 1.3vw;
+    align-items: center;
+}
+.post img{
+    height: 220px;
+    width: 100%;
+    cursor: pointer;
+}
+.hashtag{
+    color:blue;
+}
